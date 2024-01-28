@@ -1,0 +1,124 @@
+
+.form__box__emails {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.forma__phone__select{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.forma__box__select__ipt{
+    padding: 13px 0 13px 16px;
+    border-radius:6px 0 0 6px;
+    border: 1px solid #D9D9D9;
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 20%;
+}
+.forma__box__phone__ipt{
+    padding: 11px 0 11px 4px;
+    border-radius:0 6px 6px 0;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 80%;
+}
+.forma__box__phone {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.forma__box__residence {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+.forma__box__residence__slt {
+    padding: 14px 12px 14px 16px;
+    width: 200px;
+}
+.forma__box__residence__ipt {
+    width: 200px;
+}
+.forma__box__password {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.forma__box__confirm {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.form__btn {
+    display: inline-block;
+    width: 100%;
+    padding: 13px 0;
+    background-color: var(--primary-coler);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all 0.5s ease;
+}
+.form__btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid var(--primary-coler) ;
+
+}
+.main__text {
+    max-width: 366px;
+    margin: 0 auto;
+}
+@media (max-width: 700px) {
+    .forma__box__residence{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .forma__box__residence__card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .forma__box__country__card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .forma__box__residence__slt {
+        width: 100%;
+    }
+    .forma__box__residence__ipt {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .forma__box__select__ipt{
+        font-size: 14px;
+        padding: 14px 0;
+        width: 25%;
+    }
+    .forma__box__phone__ipt{
+        font-size: 14px;
+        width: 75%;
+    }
+}

@@ -1,0 +1,27 @@
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.form__login__email {
+    margin-bottom: 24px;
+}
+.form__login__email__card{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.password-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#password{
+    width: 100%;
+}
+#toggle-password{
+    position: absolute;
+    right: 20px;
+}

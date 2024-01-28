@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styl.css">
+        <title>Trend</title>
+    </head>
+    <body>
+        <!-- BACKTOP -->
+        <a id="bactop" href="#">
+            <img src="./image/arrow.svg" alt="backtop" />
+        </a>
+        <!-- HEADER -->
+        <header id="header">
+            <div class="header__container">
+                <nav>
+                    <a href="#" class="nav__left">
+                        <img class="nav__logo" src="./image/header/logo.svg" alt="logo">
+                    </a>
+                    <div class="nav__right">
+                        <ul id="header__nav-list" class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__item__link">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item__link">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item__link">Contacts</a>
+                            </li>
+                            <li class="new">
+                                <a href="login.html" class="nav__box__btn">
+                                    Log in
+                                </a>
+                            </li>
+                            <li class="new">
+                                <button class="nav__box__btn">
+                                    Open an account
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="nav__right__boxs">
+                            <div class="langues">
+                                <a href="uzb.home.html">
+                                    <img class="nav__langues__img" src="./image/header/icons8-uzbekistan-48.png" alt="uzb">
+                                </a>
+                            </div>
+                            <div class="nav__right__card">
+                                <a href="login.html" class="nav__box__btn">
+                                    Log in
+                                </a>
+                                <button class="nav__box__btn">
+                                    Open an account
+                                </button>
+                            </div>
+                            <button class="nav__btn" id="nav__btn__menu">
+                                <span class="nav__btn__liner"></span>
+                                <span class="nav__btn__liner"></span>
+                                <span class="nav__btn__liner"></span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <div class="main__container">
+                <div class="main__wrapper">
+                    <div class="main__top">
+                        <img src="./image/main-top/logo.svg" alt="main-logo">
+                        <h1 class="main__top__title">Welcome to ByTrend!</h1>
+                        <div class="main__top__box">
+                            <p class="main__top__box__text">Already have an account?</p>
+                            <a class="main__top__box__link" href="login.html">Log in</a>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="forma__name">
+                            <div class="forma__box__card">
+                                <label class="forma__box__label" for="firstname">First name<span class="star">*</span></label>
+                                 <input id="firstname" class="forma__box__name ipt-repeat" type="text" required placeholder="First name">
+                            </div>
+                            <div class="forma__box__card">
+                                <label class="forma__box__label" for="lastname">Last name<span class="star">*</span></label>
+                                <input id="lastname" class="forma__box__name ipt-repeat" type="text"  required placeholder="Your surname">
+                            </div>
+                        </div>
+                        <div class="forma__box__date">
+                            <label class="forma__box__label" for="date">Birth date<span class="star">*</span></label>
+                            <input id="date" class="forma__box__date__ipt ipt-repeat" type="date" value="Tugilgan sanangiz" required placeholder="06.12.1992">
+                        </div>
+                        <div class="forma__box__radios">
+                            <div class="forma__box__radios__card">
+                                <input name="jins" id="female" class="forma__box__radio" type="radio" value="female"  required>
+                                <label class="forma__box__label" for="female">Female</label>
+                            </div>
+                            <div class="forma__box__radios__card">
+                                <input name="jins" id="male" class="forma__box__radio" type="radio"  value="male" required>
+                                <label class="forma__box__label" for="male">Male</label>
+                            </div>
+                        </div>
+                        <div class="forma__box__skype">
+                            <label for="skype" class="forma__box__label">Skype</label>
+                            <input id="skype" type="text"  class="forma__box__skype__ipt ipt-repeat" required placeholder="Your login Skype">
+                        </div>
+                        <div class="forma__box__promo">
+                            <label for="promo" class="forma__box__label">Promo</label>
+                            <input id="promo" type="text"  class="forma__box__promo__ipt ipt-repeat" required placeholder="Your promo">
+                        </div>
+                        <a href="second.html" class="form__btn link__df ">
+                            <p>Continue</p>
+                            <img class="img__wite" src="./image/main-top/arrow riht black.svg" alt="">
+                        </a>
+                    </form>
+                </div>
+                <p class="main__text">
+                    ©2020 All Rights Reserved. Lorem Technologies, Inc.
+                </p>
+            </div> 
+        </main>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

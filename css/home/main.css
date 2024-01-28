@@ -1,0 +1,103 @@
+main{
+    padding-top: 100px;
+}
+.main__wrapper {
+    margin-bottom: 64px;
+    padding:40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+.forma__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.forma__box__card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 200px;
+}
+.forma__box__label {
+    color: var(--text-premyum);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.star {
+    color: var(--primary-coler);
+}
+.ipt-repeat:hover{
+    border: 2px solid var(--primary-coler)
+}
+
+.forma__box__date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.forma__box__date__ipt {
+    padding-right: 12px;
+}
+.forma__box__radios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.forma__box__radios__card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 0 12px 16px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+}
+.forma__box__radios__card label{
+    cursor: pointer;
+}
+.forma__box__radio {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.forma__box__skype {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.forma__box__promo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.main__text{
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+@media (max-width: 700px) {
+    .forma__box__card{
+        width: 100%;
+    }
+    .forma__box__radios__card{
+        width: 100%;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styl.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+        <title>Trend</title>
+    </head>
+    <body>
+        <!-- BACKTOP -->
+        <a id="bactop" href="#">
+            <img src="./image/arrow.svg" alt="backtop" />
+        </a>
+        <!-- HEADER -->
+        <header id="header">
+            <div class="header__container">
+                <nav>
+                    <a href="index.html" class="nav__left">
+                        <img class="nav__logo" src="./image/header/logo.svg" alt="logo">
+                    </a>
+                    <div class="nav__right">
+                        <ul id="header__nav-list" class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__item__link">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item__link">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__item__link">Contacts</a>
+                            </li>
+                            <li class="new">
+                                <a href="login.html" class="nav__box__btn">
+                                    Log in
+                                </a>
+                            </li>
+                            <li class="new">
+                                <a href="index.html" class="nav__box__btn">
+                                    Open an account
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="nav__right__boxs">
+                            <div class="langues">
+                                <a href="uzb.login.html">
+                                    <img class="nav__langues__img" src="./image/header/icons8-uzbekistan-48.png" alt="uzb">
+                                </a>
+                            </div>
+                            <div class="nav__right__card">
+                                <a href="login.html" class="nav__box__btn">
+                                    Log in
+                                </a>
+                                <a href="index.html" class="nav__box__btn">
+                                    Open an account
+                                </a>
+                            </div>
+                            <button class="nav__btn" id="nav__btn__menu">
+                                <span class="nav__btn__liner"></span>
+                                <span class="nav__btn__liner"></span>
+                                <span class="nav__btn__liner"></span>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <div class="main__container">
+                <div class="main__wrapper">
+                    <div class="main__top">
+                        <img src="./image/main-top/logo.svg" alt="main-logo">
+                        <h1 class="main__top__title">Welcome to ByTrend!</h1>
+                        <div class="main__top__box">
+                            <p class="main__top__box__text">Already have an account?</p>
+                            <a class="main__top__box__link" href="login.html">Log in</a>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="form__login__email form__login">
+                            <label for="email" class="form__login__email__lbl forma__box__label">Email<span class="star">*</span></label>
+                            <input id="email"  type="email" class=" form__login__email__ipt ipt-repeat" required placeholder="Email address">
+                        </div>
+                        <div class="form__login__password form__login ">
+                            <div class="form__login__email__card">
+                                <label for="password" class="forma__box__label">Password<span class="star">*</span></label>
+                                <img src="./image/main-top/Setting.svg" alt="setting">
+                            </div>
+                            <div class="password-box">
+                                <input type="password" class=" form__login__pasword__ipt ipt-repeat" id="password" placeholder="************"/>
+                                <i class="bi bi-eye-slash" id="toggle-password"></i>
+                            </div>    
+                        </div>
+                        <a href="second.html" class="form__btn link__df ">
+                            <p>Continue</p>
+                            <img class="img__wite" src="./image/main-top/arrow riht black.svg" alt="">
+                        </a>
+                    </form>
+                </div>
+                <p class="main__text">
+                    ©2020 All Rights Reserved. Lorem Technologies, Inc.
+                </p>
+            </div> 
+        </main>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
